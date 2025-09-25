@@ -3,7 +3,7 @@
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "GET"){
         if (isset($_GET["name"]) && isset($_GET["surname"])){
-            echo "hola" . $_GET["name"] . " " . $_GET["surname"];
+            echo "hola " . $_GET["name"] . " " . $_GET["surname"];
         }
     }
 ?>
